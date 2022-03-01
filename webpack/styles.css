@@ -1,0 +1,129 @@
+body {
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#d1 {
+    width: 100px; 
+    height: 240px; 
+    border: 2.5vmin solid white;
+    position: fixed;
+    top: 10%;
+    right: 68%;
+    border-radius: 0 100px 100px 0;
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#a {
+    background: white;
+    width: 20px;
+    height: 250px;
+    position: absolute;
+    top: 10%;
+    right: 60%;
+    transform: skew(-15deg);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#a1 {
+    background: white;
+    width: 20px;
+    height: 250px;
+    position: absolute;
+    top: 10%;
+    right: 55%;
+    transform: skew(15deg);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#a2 {
+    background: white;
+    width: 88px;
+    height: 20px;
+    position: absolute;
+    top: 28%;
+    right: 52.5%;
+    transform: translate(-50%, -50%);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#r {
+    background: white;
+    width: 20px;
+    height: 250px;
+    position: absolute;
+    top: 27.5%;
+    right: 45%;
+    transform: translate(-50%, -50%);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#r2 {
+    width: 100px;
+    height: 15vmin;
+    position: absolute;
+    top: 10%;
+    right: 38%;
+    border: 2.5vmin solid white;
+    border-radius: 50%;    
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#r3 {
+    background: white;
+    width: 20px;
+    height: 130px;
+    position: absolute;
+    top: 26.5%;
+    right: 41%;
+    transform: skew(32deg);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#k {
+    background: white;
+    width: 20px;
+    height: 250px;
+    position: absolute;
+    top: 27.5%;
+    right: 30.5%;
+    transform: translate(-50%, -50%);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#k1 {
+    background: white;
+    width: 20px;
+    height: 130px;
+    position: absolute;
+    top: 26.5%;
+    right: 28%;
+    transform: skew(32deg);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+#k2 {
+    background: white;
+    width: 20px;
+    height: 130px;
+    position: absolute;
+    top: 10%;
+    right: 28%;
+    transform: skew(-32deg);
+    animation: firstAnimation 5s infinite;
+    animation-iteration-count: 1
+}
+
+@keyframes firstAnimation {
+    from {transform: translate(0, -600px);}
+}
