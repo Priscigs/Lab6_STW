@@ -1,5 +1,5 @@
 export const principalStory = () => {
-    const story = document.createElement('story');
+  const story = document.createElement('story');
     story.innerHTML = `
             <div class="container">
                 <div id="d"></div>
@@ -48,25 +48,26 @@ export const principalStory = () => {
 
             <div class="container">
                 <p class="text-white">
-                    Un humano vive 3 vidas. La primera termina con la pérdida de la ingenuidad,
-                    la segunda con la pérdida de la inocencia, y la tercera con la pérdida
+                    Un humano vive 3 vidas. La primera termina con la perdida de la ingenuidad,
+                    la segunda con la perdida de la inocencia, y la tercera con la perdida
                     de la vida misma. Es inevitable que pasemos por las 3 etapas.
                 </p>
                 <ol>
                     <li>
-                        <a href="webpack/2.html">Comentario</a>
+                        <a href="2.html">Comentario</a>
                     </li>
                     <li>
-                        <a href="webpack/3.html">Comenzar</a>
+                        <a href="3.html">Comenzar</a>
                     </li>
                 </ol>
                 
                 <footer>
                     <p class="text-white">Autora: Priscilla González - 20689</p>
                 </footer>
+
+                <a href="https://github.com/Priscigs/Lab6_STW">Link de Github</a>
             </div>    
     `
 
     document.body.appendChild(story);
-
 }
