@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/pages/page11/script6.js":
+/*!*************************************!*\
+  !*** ./src/pages/page11/script6.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles11_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles11.css */ \"./src/pages/page11/styles11.css\");\n\nvar story = document.createElement('story');\nstory.innerHTML = \"\\n<div class=\\\"container\\\">\\n        <article>\\n            <h2>Todo es ahora</h2>\\n            <p class=\\\"text-white\\\">\\n                Ulrich corre lo m\\xE1s que puede hasta llegar al hospital, en donde entra y se esconde.\\n                Al ir caminando por los pasillos, se percata desde afuera de una ventana que su hijo\\n                Mike est\\xE1 acostado en una camilla. \\n            </p>\\n        </article>\\n        <img src=\\\"../../../images/hospital.jpg\\\" alt=\\\"\\\" width=\\\"350\\\" height=\\\"300\\\">\\n            \\n        <article>\\n            <h2>Correr</h2>\\n            <p class=\\\"text-white\\\">\\n                Ulrich y Mike se abrazan y deciden irse corriendo hacia la cueva. Para poder pasar por la\\n                puerta y as\\xED llegar al <span style=\\\"color:black\\\">\\\"presente\\\".</span>\\n                <br>\\n                    Cuando estaban a punto de entrar a la cueva, la polic\\xEDa aparece, y junto con ellos,\\n                    el oficial mayor. Se\\xF1ala que encarcelen a Ulrich por asesinato de su hijo, adem\\xE1s po\\n                    raptado a un ni\\xF1o (Mike). Ulrich dice que poder explicar todo, para que\\n                    no lo separan nuevamente de su hijo. Pero la polic\\xEDa no le escucha y se lo llevan,\\n                    dejando nuevamente a Mike barado en la nada.\\n                <br>\\n            </p>\\n        </article>\\n\\n        <ul>\\n            <li>\\n                <a href=\\\"12.html\\\">Tiempo despu\\xE9s</a>\\n            </li>\\n        </ul>\\n</div>\\n\";\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page11/script6.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page11/styles11.css":
 /*!***************************************!*\
   !*** ./src/pages/page11/styles11.css ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lab06/./src/pages/page11/styles11.css?");
-
-/***/ }),
-
-/***/ "./src/pages/page11/script6.js":
-/*!*************************************!*\
-  !*** ./src/pages/page11/script6.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles11_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles11.css */ \"./src/pages/page11/styles11.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n        <article>\r\n            <h2>Todo es ahora</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich corre lo más que puede hasta llegar al hospital, en donde entra y se esconde.\r\n                Al ir caminando por los pasillos, se percata desde afuera de una ventana que su hijo\r\n                Mike está acostado en una camilla. \r\n            </p>\r\n        </article>\r\n        <img src=\"../../../images/hospital.jpg\" alt=\"\" width=\"350\" height=\"300\">\r\n            \r\n        <article>\r\n            <h2>Correr</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich y Mike se abrazan y deciden irse corriendo hacia la cueva. Para poder pasar por la\r\n                puerta y así llegar al <span style=\"color:black\">\"presente\".</span>\r\n                <br>\r\n                    Cuando estaban a punto de entrar a la cueva, la policía aparece, y junto con ellos,\r\n                    el oficial mayor. Señala que encarcelen a Ulrich por asesinato de su hijo, además po\r\n                    raptado a un niño (Mike). Ulrich dice que poder explicar todo, para que\r\n                    no lo separan nuevamente de su hijo. Pero la policía no le escucha y se lo llevan,\r\n                    dejando nuevamente a Mike barado en la nada.\r\n                <br>\r\n            </p>\r\n        </article>\r\n\r\n        <ul>\r\n            <li>\r\n                <a href=\"12.html\">Tiempo después</a>\r\n            </li>\r\n        </ul>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page11/script6.js?");
 
 /***/ })
 

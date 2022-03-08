@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/pages/page9/script9.js":
+/*!************************************!*\
+  !*** ./src/pages/page9/script9.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles9_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles9.css */ \"./src/pages/page9/styles9.css\");\n\nvar story = document.createElement('story');\nstory.innerHTML = \"\\n        <div class=\\\"container\\\">\\n            <article>\\n                <h1>NO HAY VUELTA ATR\\xC1S</h1>\\n            <ul>\\n                <li>\\n                    <a href=\\\"10.html\\\">Regresar y seguir avanzando</a>\\n                </li>\\n            </ul>\\n            </article>\\n        </div>\\n\";\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page9/script9.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page9/styles9.css":
 /*!*************************************!*\
   !*** ./src/pages/page9/styles9.css ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lab06/./src/pages/page9/styles9.css?");
-
-/***/ }),
-
-/***/ "./src/pages/page9/script9.js":
-/*!************************************!*\
-  !*** ./src/pages/page9/script9.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles9_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles9.css */ \"./src/pages/page9/styles9.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n        <div class=\"container\">\r\n            <article>\r\n                <h1>NO HAY VUELTA ATRÁS</h1>\r\n            <ul>\r\n                <li>\r\n                    <a href=\"10.html\">Regresar y seguir avanzando</a>\r\n                </li>\r\n            </ul>\r\n            </article>\r\n        </div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page9/script9.js?");
 
 /***/ })
 

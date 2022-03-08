@@ -1,0 +1,7 @@
+"use strict";
+
+require("./styles12.css");
+
+const story = document.createElement('story');
+story.innerHTML = "\n        <div class=\"container\">\n            <article>\n                <h2>Principios y finales</h2>\n                <p class=\"text-white\">\n                    Pasan los a\xF1os y Mike se convierte en un adulto, hasta llegar al a\xF1o 2020. El a\xF1o en que Cuando\n                    era solamente un ni\xF1o se perdi\xF3 en la aquella cueva. Te\xF3ricamente, para los dem\xE1s\n                    ciudadanos, es un a\xF1o normal, en donde la familia de Mike existe, y claramente Mike como\n                    ni\xF1o tambi\xE9n existe. Por lo que Mike siendo adulto sabe lo que le espera a \xE9l como ni\xF1o. \n                    B\xE1sicamente el ciclo se repite siempre, y hasta el momento no hay c\xF3mo detenerlo.\n                </p>\n            </article>\n\n            <div id=\"luna\"></div>\n            <div id=\"luna2\"></div>\n            <div id=\"luna3\"></div>\n            <div id=\"luna4\"></div>\n            <div id=\"luna5\"></div>\n            <div id=\"luna6\"></div>\n            <div id=\"luna7\"></div>\n            <div id=\"luna8\"></div>\n            <div id=\"luna9\"></div>\n            <div id=\"luna10\"></div>\n            <div id=\"luna11\"></div>\n            <div id=\"luna12\"></div>\n            <div id=\"luna13\"></div>\n        </div>\n";
+document.body.appendChild(story);

@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/pages/page8/script4.js":
+/*!************************************!*\
+  !*** ./src/pages/page8/script4.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles8_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles8.css */ \"./src/pages/page8/styles8.css\");\n\nvar story = document.createElement('story');\nstory.innerHTML = \"\\n<div class=\\\"container\\\">\\n        <article>\\n            <h2>Dobles vidas</h2>\\n            <p class=\\\"text-white\\\">\\n                Ulrich sigue avanzando hasta encontrar una puerta secreta.\\n            </p>\\n        </article>\\n\\n        <figure>\\n            <img src=\\\"../../../images/door.jpg\\\" alt=\\\"Door\\\" style=\\\"width:40%\\\">\\n            <figcaption>Puerta Secreta.</figcaption>\\n        </figure>\\n\\n        <article>\\n            <h2>Pasar por la puerta</h2>\\n            <p class=\\\"text-white\\\">\\n                Al lograr entrar por la puerta, un aire desciende por donde pasa.\\n                Y finalmente sale por donde entr\\xF3, la misma cueva.\\n            </p>\\n        </article>\\n        <img src=\\\"../../../images/cave.jpg\\\" alt=\\\"Door\\\" width=\\\"350\\\" height=\\\"300\\\">\\n\\n        <ul>\\n            <li>\\n                <a href=\\\"9.html\\\">Entrar a la cueva nuevamente</a>\\n            </li>\\n            <li>\\n                <a href=\\\"10.html\\\">Seguir avanzando</a>\\n            </li>\\n        </ul>\\n</div>\\n\";\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page8/script4.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page8/styles8.css":
 /*!*************************************!*\
   !*** ./src/pages/page8/styles8.css ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lab06/./src/pages/page8/styles8.css?");
-
-/***/ }),
-
-/***/ "./src/pages/page8/script4.js":
-/*!************************************!*\
-  !*** ./src/pages/page8/script4.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles8_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles8.css */ \"./src/pages/page8/styles8.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n        <article>\r\n            <h2>Dobles vidas</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich sigue avanzando hasta encontrar una puerta secreta.\r\n            </p>\r\n        </article>\r\n\r\n        <figure>\r\n            <img src=\"../../../images/door.jpg\" alt=\"Door\" style=\"width:40%\">\r\n            <figcaption>Puerta Secreta.</figcaption>\r\n        </figure>\r\n\r\n        <article>\r\n            <h2>Pasar por la puerta</h2>\r\n            <p class=\"text-white\">\r\n                Al lograr entrar por la puerta, un aire desciende por donde pasa.\r\n                Y finalmente sale por donde entró, la misma cueva.\r\n            </p>\r\n        </article>\r\n        <img src=\"../../../images/cave.jpg\" alt=\"Door\" width=\"350\" height=\"300\">\r\n\r\n        <ul>\r\n            <li>\r\n                <a href=\"9.html\">Entrar a la cueva nuevamente</a>\r\n            </li>\r\n            <li>\r\n                <a href=\"10.html\">Seguir avanzando</a>\r\n            </li>\r\n        </ul>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page8/script4.js?");
 
 /***/ })
 

@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/pages/page12/script10.js":
+/*!**************************************!*\
+  !*** ./src/pages/page12/script10.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles12_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles12.css */ \"./src/pages/page12/styles12.css\");\n\nvar story = document.createElement('story');\nstory.innerHTML = \"\\n        <div class=\\\"container\\\">\\n            <article>\\n                <h2>Principios y finales</h2>\\n                <p class=\\\"text-white\\\">\\n                    Pasan los a\\xF1os y Mike se convierte en un adulto, hasta llegar al a\\xF1o 2020. El a\\xF1o en que Cuando\\n                    era solamente un ni\\xF1o se perdi\\xF3 en la aquella cueva. Te\\xF3ricamente, para los dem\\xE1s\\n                    ciudadanos, es un a\\xF1o normal, en donde la familia de Mike existe, y claramente Mike como\\n                    ni\\xF1o tambi\\xE9n existe. Por lo que Mike siendo adulto sabe lo que le espera a \\xE9l como ni\\xF1o. \\n                    B\\xE1sicamente el ciclo se repite siempre, y hasta el momento no hay c\\xF3mo detenerlo.\\n                </p>\\n            </article>\\n\\n            <div id=\\\"luna\\\"></div>\\n            <div id=\\\"luna2\\\"></div>\\n            <div id=\\\"luna3\\\"></div>\\n            <div id=\\\"luna4\\\"></div>\\n            <div id=\\\"luna5\\\"></div>\\n            <div id=\\\"luna6\\\"></div>\\n            <div id=\\\"luna7\\\"></div>\\n            <div id=\\\"luna8\\\"></div>\\n            <div id=\\\"luna9\\\"></div>\\n            <div id=\\\"luna10\\\"></div>\\n            <div id=\\\"luna11\\\"></div>\\n            <div id=\\\"luna12\\\"></div>\\n            <div id=\\\"luna13\\\"></div>\\n        </div>\\n\";\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page12/script10.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page12/styles12.css":
 /*!***************************************!*\
   !*** ./src/pages/page12/styles12.css ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lab06/./src/pages/page12/styles12.css?");
-
-/***/ }),
-
-/***/ "./src/pages/page12/script10.js":
-/*!**************************************!*\
-  !*** ./src/pages/page12/script10.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles12_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles12.css */ \"./src/pages/page12/styles12.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n        <div class=\"container\">\r\n            <article>\r\n                <h2>Principios y finales</h2>\r\n                <p class=\"text-white\">\r\n                    Pasan los años y Mike se convierte en un adulto, hasta llegar al año 2020. El año en que Cuando\r\n                    era solamente un niño se perdió en la aquella cueva. Teóricamente, para los demás\r\n                    ciudadanos, es un año normal, en donde la familia de Mike existe, y claramente Mike como\r\n                    niño también existe. Por lo que Mike siendo adulto sabe lo que le espera a él como niño. \r\n                    Básicamente el ciclo se repite siempre, y hasta el momento no hay cómo detenerlo.\r\n                </p>\r\n            </article>\r\n\r\n            <div id=\"luna\"></div>\r\n            <div id=\"luna2\"></div>\r\n            <div id=\"luna3\"></div>\r\n            <div id=\"luna4\"></div>\r\n            <div id=\"luna5\"></div>\r\n            <div id=\"luna6\"></div>\r\n            <div id=\"luna7\"></div>\r\n            <div id=\"luna8\"></div>\r\n            <div id=\"luna9\"></div>\r\n            <div id=\"luna10\"></div>\r\n            <div id=\"luna11\"></div>\r\n            <div id=\"luna12\"></div>\r\n            <div id=\"luna13\"></div>\r\n        </div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page12/script10.js?");
 
 /***/ })
 

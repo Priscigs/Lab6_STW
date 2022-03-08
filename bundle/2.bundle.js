@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/pages/page2/script11.js":
+/*!*************************************!*\
+  !*** ./src/pages/page2/script11.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles2_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles2.css */ \"./src/pages/page2/styles2.css\");\n\nvar story = document.createElement('story');\nstory.innerHTML = \"\\n        <div class=\\\"container\\\">\\n            <div class=\\\"row\\\">\\n                <p>Cargando Comentario <progress></progress></p>\\n            </div>\\n            <div class=\\\"row\\\">\\n                <div class=\\\"col\\\">\\n                    <div class=\\\"myDiv\\\">\\n                        <p>\\n                            En mi opinion pienso que fue una lectura bastante entretenida. Me gusta la idea de poner\\n                            al usuario en primer lugar para poder llegar a lograr un objetivo. Esto me recuerda\\n                            mucho a Design Thinking, ya que tambien es necesario poder aprender a trabajar en\\n                            equipo, a tener empatia hacia el usuario y demas. Ademas, creo que es bastante acertado \\n                            lo que se menciona de UI. Que es mucho mejor empezar por esta area y luego a UX. Finalmente\\n                            me gusta la idea de que este sea un trabajo bastante solicitado y que al mismo tiempo se\\n                            pueda llegara tener bastante libertad al momento de trabajar.\\n                        </p>\\n                    </div>\\n                </div>\\n            </div>\\n            <div class=\\\"row\\\"></div>\\n            <div class=\\\"row\\\">\\n                <ol>\\n                    <li>\\n                        <a href=\\\"index.html\\\">Regresar a pagina principal</a>\\n                    </li>\\n                </ol>\\n            </div>\\n            <div class=\\\"row\\\">\\n                <footer>\\n                    <p>Autora: Priscilla Gonz\\xE1lez - 20689</p>\\n                </footer>\\n            </div>\\n        </div>          \\n\";\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page2/script11.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page2/styles2.css":
 /*!*************************************!*\
   !*** ./src/pages/page2/styles2.css ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lab06/./src/pages/page2/styles2.css?");
-
-/***/ }),
-
-/***/ "./src/pages/page2/script11.js":
-/*!*************************************!*\
-  !*** ./src/pages/page2/script11.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles2_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles2.css */ \"./src/pages/page2/styles2.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <p>Cargando Comentario <progress></progress></p>\r\n            </div>\r\n            <div class=\"row\">\r\n                <div class=\"col\">\r\n                    <div class=\"myDiv\">\r\n                        <p>\r\n                            En mi opinion pienso que fue una lectura bastante entretenida. Me gusta la idea de poner\r\n                            al usuario en primer lugar para poder llegar a lograr un objetivo. Esto me recuerda\r\n                            mucho a Design Thinking, ya que tambien es necesario poder aprender a trabajar en\r\n                            equipo, a tener empatia hacia el usuario y demas. Ademas, creo que es bastante acertado \r\n                            lo que se menciona de UI. Que es mucho mejor empezar por esta area y luego a UX. Finalmente\r\n                            me gusta la idea de que este sea un trabajo bastante solicitado y que al mismo tiempo se\r\n                            pueda llegara tener bastante libertad al momento de trabajar.\r\n                        </p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\"></div>\r\n            <div class=\"row\">\r\n                <ol>\r\n                    <li>\r\n                        <a href=\"index.html\">Regresar a pagina principal</a>\r\n                    </li>\r\n                </ol>\r\n            </div>\r\n            <div class=\"row\">\r\n                <footer>\r\n                    <p>Autora: Priscilla González - 20689</p>\r\n                </footer>\r\n            </div>\r\n        </div>          \r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page2/script11.js?");
 
 /***/ })
 

@@ -16,7 +16,27 @@
   \****************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"startApp\": () => (/* binding */ startApp)\n/* harmony export */ });\n/* harmony import */ var _webpack_scriptIndex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./webpack/scriptIndex */ \"./webpack/scriptIndex.js\");\n\r\n\r\nconst startApp = () => {\r\n    document.getElementById(\"prueba\").appendChild((0,_webpack_scriptIndex__WEBPACK_IMPORTED_MODULE_0__.principalStory)());\r\n}\n\n//# sourceURL=webpack://lab06/./app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"startApp\": () => (/* binding */ startApp)\n/* harmony export */ });\n/* harmony import */ var _webpack_scriptIndex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./webpack/scriptIndex */ \"./webpack/scriptIndex.js\");\n\nvar startApp = function startApp() {\n  document.getElementById(\"prueba\").appendChild((0,_webpack_scriptIndex__WEBPACK_IMPORTED_MODULE_0__.principalStory)());\n};\n\n//# sourceURL=webpack://lab06/./app.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../app */ \"./app.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/styles.css */ \"./src/css/styles.css\");\n\n\n\n(0,_app__WEBPACK_IMPORTED_MODULE_0__.startApp)();\n\n//# sourceURL=webpack://lab06/./src/index.js?");
+
+/***/ }),
+
+/***/ "./webpack/scriptIndex.js":
+/*!********************************!*\
+  !*** ./webpack/scriptIndex.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"principalStory\": () => (/* binding */ principalStory)\n/* harmony export */ });\nvar principalStory = function principalStory() {\n  var story = document.createElement('story');\n  story.innerHTML = \"\\n            <div class=\\\"container\\\">\\n                <div id=\\\"d\\\"></div>\\n                <div id=\\\"d1\\\"></div>\\n                <div id=\\\"a\\\"></div>\\n                <div id=\\\"a1\\\"></div>\\n                <div id=\\\"a2\\\"></div>\\n                <div id=\\\"r\\\"></div>\\n                <div id=\\\"r2\\\"></div>\\n                <div id=\\\"r3\\\"></div>\\n                <div id=\\\"k\\\"></div>\\n                <div id=\\\"k1\\\"></div>\\n                <div id=\\\"k2\\\"></div>\\n            </div>\\n            \\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">.</p>\\n            </div>\\n\\n            <div class=\\\"container\\\">\\n                <p class=\\\"text-white\\\">\\n                    Un humano vive 3 vidas. La primera termina con la perdida de la ingenuidad,\\n                    la segunda con la perdida de la inocencia, y la tercera con la perdida\\n                    de la vida misma. Es inevitable que pasemos por las 3 etapas.\\n                </p>\\n                <ol>\\n                    <li>\\n                        <a href=\\\"2.html\\\">Comentario</a>\\n                    </li>\\n                    <li>\\n                        <a href=\\\"3.html\\\">Comenzar</a>\\n                    </li>\\n                </ol>\\n                \\n                <footer>\\n                    <p class=\\\"text-white\\\">Autora: Priscilla Gonz\\xE1lez - 20689</p>\\n                </footer>\\n\\n                <a href=\\\"https://github.com/Priscigs/Lab6_STW\\\">Link de Github</a>\\n            </div>    \\n    \";\n  document.body.appendChild(story);\n};\n\n//# sourceURL=webpack://lab06/./webpack/scriptIndex.js?");
 
 /***/ }),
 
@@ -37,26 +57,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lab06/./src/css/styles.css?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../app */ \"./app.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/styles.css */ \"./src/css/styles.css\");\n\r\n\r\n\r\n\r\n(0,_app__WEBPACK_IMPORTED_MODULE_0__.startApp)()\n\n//# sourceURL=webpack://lab06/./src/index.js?");
-
-/***/ }),
-
-/***/ "./webpack/scriptIndex.js":
-/*!********************************!*\
-  !*** ./webpack/scriptIndex.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"principalStory\": () => (/* binding */ principalStory)\n/* harmony export */ });\nconst principalStory = () => {\r\n  const story = document.createElement('story');\r\n    story.innerHTML = `\r\n            <div class=\"container\">\r\n                <div id=\"d\"></div>\r\n                <div id=\"d1\"></div>\r\n                <div id=\"a\"></div>\r\n                <div id=\"a1\"></div>\r\n                <div id=\"a2\"></div>\r\n                <div id=\"r\"></div>\r\n                <div id=\"r2\"></div>\r\n                <div id=\"r3\"></div>\r\n                <div id=\"k\"></div>\r\n                <div id=\"k1\"></div>\r\n                <div id=\"k2\"></div>\r\n            </div>\r\n            \r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">.</p>\r\n            </div>\r\n\r\n            <div class=\"container\">\r\n                <p class=\"text-white\">\r\n                    Un humano vive 3 vidas. La primera termina con la perdida de la ingenuidad,\r\n                    la segunda con la perdida de la inocencia, y la tercera con la perdida\r\n                    de la vida misma. Es inevitable que pasemos por las 3 etapas.\r\n                </p>\r\n                <ol>\r\n                    <li>\r\n                        <a href=\"2.html\">Comentario</a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"3.html\">Comenzar</a>\r\n                    </li>\r\n                </ol>\r\n                \r\n                <footer>\r\n                    <p class=\"text-white\">Autora: Priscilla González - 20689</p>\r\n                </footer>\r\n\r\n                <a href=\"https://github.com/Priscigs/Lab6_STW\">Link de Github</a>\r\n            </div>    \r\n    `\r\n\r\n    document.body.appendChild(story);\r\n}\n\n//# sourceURL=webpack://lab06/./webpack/scriptIndex.js?");
 
 /***/ })
 
