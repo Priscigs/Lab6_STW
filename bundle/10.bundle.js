@@ -20,13 +20,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/pages/page10/script12.js":
+/*!**************************************!*\
+  !*** ./src/pages/page10/script12.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles10_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles10.css */ \"./src/pages/page10/styles10.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n        <article>\r\n            <h2>Muerte</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich desesperado, va a la casa del oficial mayor. Pero no se encuentra con este, sino con \r\n                el hijo menor del oficial. Ulrich le pregunta por su padre, a lo que el ninio responde que \r\n                no sabe en donde puede encontralo. Cuando se iba a ir, alcanza a ver que el ninio tiene una foto\r\n                su hijo Mike, por lo que enloquece y le pregunta de donde la consiguio. El ninio se asusta y sale\r\n                corriendo. Ulrich lo persigue hasta alcanzarlo, le grita y entre la desesperacion, Ulrich mata\r\n                al ninio.\r\n            </p>\r\n        </article>\r\n\r\n        <ul>\r\n            <li>\r\n                <a href=\"11.html\">Escapar</a>\r\n            </li>\r\n        </ul>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page10/script12.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page10/script5.js":
 /*!*************************************!*\
   !*** ./src/pages/page10/script5.js ***!
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles10_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles10.css */ \"./src/pages/page10/styles10.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n        <article>\r\n            <h2>Otra epoca?</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich desconcertado, vuelve a la estacion de policias, en donde se da cuenta que\r\n                los policias no son a los que el conoce. De igual forma, dice que su hijo esta desaparecido\r\n                y pide ayuda a los oficiales. Ninguno le presta mucha atencion, ya que estan entretenidos\r\n                con otro caso <i>(Ninio dice venir del futuro y no encuentra a sus padres).</i>\r\n            </p>\r\n        </article>\r\n            \r\n        <article>\r\n            <h2>Muerte</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich desesperado, va a la casa del oficial mayor. Pero no se encuentra con este, sino con \r\n                el hijo menor del oficial. Ulrich le pregunta por su padre, a lo que el ninio responde que \r\n                no sabe en donde puede encontralo. Cuando se iba a ir, alcanza a ver que el ninio tiene una foto\r\n                su hijo Mike, por lo que enloquece y le pregunta de donde la consiguio. El ninio se asusta y sale\r\n                corriendo. Ulrich lo persigue hasta alcanzarlo, le grita y entre la desesperacion, Ulrich mata\r\n                al ninio.\r\n            </p>\r\n        </article>\r\n\r\n        <ul>\r\n            <li>\r\n                <a href=\"11.html\">Escapar</a>\r\n            </li>\r\n        </ul>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page10/script5.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles10_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles10.css */ \"./src/pages/page10/styles10.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n        <article>\r\n            <h2>Otra epoca?</h2>\r\n            <p class=\"text-white\">\r\n                Ulrich desconcertado, vuelve a la estacion de policias, en donde se da cuenta que\r\n                los policias no son a los que el conoce. De igual forma, dice que su hijo esta desaparecido\r\n                y pide ayuda a los oficiales. Ninguno le presta mucha atencion, ya que estan entretenidos\r\n                con otro caso <i>(Ninio dice venir del futuro y no encuentra a sus padres).</i>\r\n            </p>\r\n        </article>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page10/script5.js?");
 
 /***/ })
 
@@ -73,7 +83,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/page10/script5.js");
+/******/ 	__webpack_require__("./src/pages/page10/script5.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/page10/script12.js");
 /******/ 	
 /******/ })()
 ;

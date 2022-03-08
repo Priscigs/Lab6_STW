@@ -26,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles3_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles3.css */ \"./src/pages/page3/styles3.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n    <h2>Secretos</h2>\r\n        <article class=\"text-white\">\r\n             <p>\r\n                En un pequenio pueblo en Alemania en el anio 2020, en la noche se juntan unos amigos en un bosque.\r\n                Caminan hacia lo mas profundo del bosque, parando a descansar cerca de una cueva.\r\n                De repente, se escucha un ruido extranio y fuerte, por lo que todos salen corriendo,\r\n                separandose. Cuando vuelven a juntarse, se percatan que uno de ellos falta. ¡Desaparece un ninio sin dejar rastro alguno!\r\n            </p>\r\n        </article>\r\n        <img src=\"../../../images/cave.jpg\" alt=\"Cueva\" width=\"350\" height=\"300\">\r\n                \r\n    <article>\r\n    <h2>Busqueda</h2>\r\n        <p class=\"text-white\">\r\n            A la maniana siguiente, tanto su familia, amigos y policia (papa del ninio desaparecido\r\n            es policia del pequenio pueblo) salen a buscar al ninio desaparecido. Los policias \r\n            encuentran una extrania entrada hacia una planta nuclear, por lo que deciden hacer una \r\n            orden de allanamiento, con la esperanza de encontrar mas de alguna pista.\r\n        </p>  \r\n        \r\n    <ul>\r\n        <li>\r\n            <a href=\"4.html\">Entrar a la planta nuclear</a>\r\n        </li>\r\n        <li>\r\n            <a href=\"5.html\">Ver desde la perspectiva del ninio perdido</a>\r\n        </li>\r\n    </ul>\r\n\r\n    <audio controls>\r\n        <source src=\"../../../images/viento.mp3\" type=\"audio/mpeg\">\r\n            Your browser does not support the audio tag.\r\n    </audio>\r\n</div>`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page3/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles3_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles3.css */ \"./src/pages/page3/styles3.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n    <h2>Secretos</h2>\r\n        <article class=\"text-white\">\r\n             <p>\r\n                En un pequenio pueblo en Alemania en el anio 2020, en la noche se juntan unos amigos en un bosque.\r\n                Caminan hacia lo mas profundo del bosque, parando a descansar cerca de una cueva.\r\n                De repente, se escucha un ruido extranio y fuerte, por lo que todos salen corriendo,\r\n                separandose. Cuando vuelven a juntarse, se percatan que uno de ellos falta. ¡Desaparece un ninio sin dejar rastro alguno!\r\n            </p>\r\n        </article>\r\n        <img src=\"../../../images/cave.jpg\" alt=\"Cueva\" width=\"350\" height=\"300\">\r\n</div>`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page3/script.js?");
+
+/***/ }),
+
+/***/ "./src/pages/page3/script13.js":
+/*!*************************************!*\
+  !*** ./src/pages/page3/script13.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles3_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles3.css */ \"./src/pages/page3/styles3.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n    <article>\r\n    <h2>Busqueda</h2>\r\n        <p class=\"text-white\">\r\n            A la maniana siguiente, tanto su familia, amigos y policia (papa del ninio desaparecido\r\n            es policia del pequenio pueblo) salen a buscar al ninio desaparecido. Los policias \r\n            encuentran una extrania entrada hacia una planta nuclear, por lo que deciden hacer una \r\n            orden de allanamiento, con la esperanza de encontrar mas de alguna pista.\r\n        </p>  \r\n        \r\n    <ul>\r\n        <li>\r\n            <a href=\"4.html\">Entrar a la planta nuclear</a>\r\n        </li>\r\n        <li>\r\n            <a href=\"5.html\">Ver desde la perspectiva del ninio perdido</a>\r\n        </li>\r\n    </ul>\r\n\r\n    <audio controls>\r\n        <source src=\"../../../images/viento.mp3\" type=\"audio/mpeg\">\r\n            Your browser does not support the audio tag.\r\n    </audio>\r\n</div>`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page3/script13.js?");
 
 /***/ })
 
@@ -73,7 +83,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/page3/script.js");
+/******/ 	__webpack_require__("./src/pages/page3/script.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/page3/script13.js");
 /******/ 	
 /******/ })()
 ;

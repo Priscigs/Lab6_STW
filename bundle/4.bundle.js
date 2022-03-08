@@ -20,13 +20,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/pages/page4/script14.js":
+/*!*************************************!*\
+  !*** ./src/pages/page4/script14.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles4_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles4.css */ \"./src/pages/page4/styles4.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n        <details>\r\n            <summary>HINT</summary>\r\n            <p class=\"text-white\">\r\n                Ulrich vio una bodega extraña en donde no se le permitió el acceso.\r\n            </p>\r\n        </details>\r\n\r\n        <ul>\r\n            <li>\r\n                <a href=\"6.html\">Ir al bosque</a>\r\n            </li>\r\n            <li>\r\n                <a href=\"5.html\">Ver desde la perspectiva del niño perdido</a>\r\n            </li>\r\n        </ul>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page4/script14.js?");
+
+/***/ }),
+
 /***/ "./src/pages/page4/script2.js":
 /*!************************************!*\
   !*** ./src/pages/page4/script2.js ***!
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles4_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles4.css */ \"./src/pages/page4/styles4.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n    <h2>Planta Nuclear</h2>\r\n        <article class=\"text-white\">\r\n            <p>\r\n                Estando dentro de la planta nuclear, Ulrich (papa del ninio desaparecido), \r\n                hace preguntas al gerente del lugar. El gerente sospechosamente evade todas\r\n                las preguntas, dejando a Ulrich con duda.\r\n            </p>\r\n        </article>\r\n        <img src=\"../../../images/nuclearPlant.jpg\" alt=\"Planta Nuclear\" width=\"350\" height=\"300\">\r\n            \r\n        <details>\r\n            <summary>HINT</summary>\r\n            <p class=\"text-white\">\r\n                Ulrich vio una bodega extraña en donde no se le permitió el acceso.\r\n            </p>\r\n        </details>\r\n\r\n        <ul>\r\n            <li>\r\n                <a href=\"6.html\">Ir al bosque</a>\r\n            </li>\r\n            <li>\r\n                <a href=\"5.html\">Ver desde la perspectiva del niño perdido</a>\r\n            </li>\r\n        </ul>\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page4/script2.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles4_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles4.css */ \"./src/pages/page4/styles4.css\");\n\r\nconst story = document.createElement('story');\r\nstory.innerHTML = `\r\n<div class=\"container\">\r\n    <h2>Planta Nuclear</h2>\r\n        <article class=\"text-white\">\r\n            <p>\r\n                Estando dentro de la planta nuclear, Ulrich (papa del ninio desaparecido), \r\n                hace preguntas al gerente del lugar. El gerente sospechosamente evade todas\r\n                las preguntas, dejando a Ulrich con duda.\r\n            </p>\r\n        </article>\r\n        <img src=\"../../../images/nuclearPlant.jpg\" alt=\"Planta Nuclear\" width=\"350\" height=\"300\">\r\n</div>\r\n`\r\n\r\ndocument.body.appendChild(story);\n\n//# sourceURL=webpack://lab06/./src/pages/page4/script2.js?");
 
 /***/ })
 
@@ -73,7 +83,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/page4/script2.js");
+/******/ 	__webpack_require__("./src/pages/page4/script2.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/page4/script14.js");
 /******/ 	
 /******/ })()
 ;
